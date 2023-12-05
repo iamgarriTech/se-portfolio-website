@@ -1,8 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import pageformImg from "@/public/pageform.png";
+import thread from "@/public/threadclone.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -69,11 +69,11 @@ export const projectsData = [
     imageUrl: pageformImg,
   },
   {
-    title: "rmtDev",
+    title: "Thread",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A social media platform built with Next.js and Tailwind. Users can create posts, like and comment on posts.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Clerk"],
+    imageUrl: thread,
   },
   {
     title: "Word Analytics",
