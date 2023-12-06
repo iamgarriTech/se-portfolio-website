@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import pageformImg from "@/public/pageform.png";
 import thread from "@/public/threadclone.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import rmtdevImg from "@/public/taskify.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -76,9 +76,9 @@ export const projectsData = [
     imageUrl: thread,
   },
   {
-    title: "Word Analytics",
+    title: "Taskify",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "A task management platform built with Next.js and Tailwind. Users can create tasks, assign tasks to users, and view task analytics.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
