@@ -62,6 +62,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Formbuilder",
+    url: "https://vercel.com/garritech/formbuilder",
     description:
       "I worked as a full-stack developer on this startup project for 3 months . Users can create and share form and view real time analytics of forms",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Mongoose"],
@@ -69,6 +70,7 @@ export const projectsData = [
   },
   {
     title: "Thread",
+    url: "https://vercel.com/garritech/formbuilder",
     description:
       "A social media platform built with Next.js and Tailwind. Users can create posts, like and comment on posts.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Clerk"],
@@ -76,6 +78,7 @@ export const projectsData = [
   },
   {
     title: "Taskify",
+    url: "https://vercel.com/garritech/formbuilder",
     description:
       "A task management platform built with Next.js and Tailwind. Users can create tasks, assign tasks to users, and view task analytics.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
