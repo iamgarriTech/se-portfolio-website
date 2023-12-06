@@ -62,26 +62,26 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Formbuilder",
-    url: "https://vercel.com/garritech/formbuilder",
+    url: "https://formmaker.garri.tech/",
     description:
-      "I worked as a full-stack developer on this startup project for 3 months . Users can create and share form and view real time analytics of forms",
+      "A drag and drop based form builder built with Next.js and Tailwind. Users can create forms, add fields, and customize the form layout. They can also add and remove form validations. ",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Mongoose"],
     imageUrl: pageformImg,
   },
   {
     title: "Thread",
-    url: "https://vercel.com/garritech/formbuilder",
+    url: "https://thread-clone-lemon.vercel.app/",
     description:
       "A social media platform built with Next.js and Tailwind. Users can create posts, like and comment on posts.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Clerk"],
+    tags: ["React", "TypeScript", "Next.js", "SQL", "Tailwind", "Clerk"],
     imageUrl: thread,
   },
   {
     title: "Taskify",
-    url: "https://vercel.com/garritech/formbuilder",
+    url: "https://trello-clone-garritech.vercel.app/",
     description:
-      "A task management platform built with Next.js and Tailwind. Users can create tasks, assign tasks to users, and view task analytics.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A SAAS based task management platform built with Next.js and Tailwind. Users can create boards, lists, and cards. They can also add and remove members from boards and lists. They can also archive and delete boards and lists. They can also add and remove labels from cards. They can also add and remove checklists from cards.",
+    tags: ["React", "Next.js", "Django", "SQL", "Tailwind", "Framer"],
     imageUrl: taskify,
   },
 ] as const;
