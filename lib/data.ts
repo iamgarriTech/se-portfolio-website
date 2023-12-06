@@ -3,8 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import pageformImg from "@/public/pageform.png";
 import thread from "@/public/threadclone.png";
-import rmtdevImg from "@/public/taskify.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import taskify from "@/public/taskify.png";
 
 export const links = [
   {
@@ -80,7 +79,7 @@ export const projectsData = [
     description:
       "A task management platform built with Next.js and Tailwind. Users can create tasks, assign tasks to users, and view task analytics.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: taskify,
   },
 ] as const;
 
